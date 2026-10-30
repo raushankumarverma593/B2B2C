@@ -1,0 +1,15 @@
+{
+  "name": "bottle-return",
+  "version": "1.0.0",
+  "description": "Bottle Return - PET Plastic Bottle Recycling Startup Website & Admin Panel",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": ["recycling", "sustainability", "pet-bottles", "circular-economy"],
+  "author": "Bottle Return Team",
+  "license": "ISC"
+}
